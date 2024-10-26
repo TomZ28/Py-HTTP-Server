@@ -3,7 +3,6 @@ import os
 import time
 import socket
 import select
-import os
 
 if not len(sys.argv) >= 2 or not sys.argv[1].isdigit():
     print("Usage: python server.py <CacheExpiryTime:int> <SetLogging:bool>")
